@@ -6,6 +6,7 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | Fylo landing page with two column layout</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -24,9 +25,9 @@
     </ul>
   </nav>
   
-  <main>
-    <section class="section-1">
-      <div class="description">
+  <main class="container col-12">
+    <section class="section-1 row align-items-center">
+      <div class="description col-md-6">
         <h1 class="title-1">all your files in one secure location, accesible anywhere</h1>
         <p class="paraf-1">Fylo stores your most important files in one secure location. 
           Access them wherever you need, share and collaborate with friends, 
@@ -36,11 +37,11 @@
           <button type="submit">Get Started</button>
         </div>  
       </div>
-      <img class="ilustration-1" src="./images/illustration-1.svg" alt="illustration-1">
+      <img class="ilustration-1 col-md-6" src="./images/illustration-1.svg" alt="illustration-1">
     </section>
     
-    <section class="section-2">
-      <div class="description">
+    <section class="section-2 row">
+      <div class="description col-md-6">
         <h2 class="title-2">Stay productive, wherever you are</h2>
         <p class="paraf-2">Never let location be an issue when accessing your files. Fylo has you 
           covered for all of your file storage needs.<br/>
@@ -49,7 +50,7 @@
         </p>
         <a href="">See how Fylo works <img src="./images/icon-arrow.svg" alt=""></a>
         <div class="card">
-          <img src="./images/icon-quotes.svg" alt="quotes">
+          <img class="quotes" src="./images/icon-quotes.svg" alt="quotes">
           <p class="paraf-card">Fylo has improved our team productivity by an order of magnitude. Since 
             making the switch our team has become a well-oiled collaboration machine.
           </p>
@@ -62,7 +63,7 @@
           </div>
         </div>
       </div>
-      <img class="illustration-2" src="./images/illustration-2.svg" alt="illustration-2">
+      <img class="illustration-2 col-md-6" src="./images/illustration-2.svg" alt="illustration-2">
     </section>
     
     <section class="section-3">
