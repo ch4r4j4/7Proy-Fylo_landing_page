@@ -4,6 +4,11 @@
   width: 2rem;
 }
 
+.ilustration-1 {
+  max-width: 39.7em;
+  height: auto;
+}
+
 * {
   margin: 0;
 }
