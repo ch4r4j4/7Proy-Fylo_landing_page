@@ -4,9 +4,13 @@
   width: 2rem;
 }
 
-.ilustration-1 {
+.ilustration {
   max-width: 39.7em;
   height: auto;
+}
+
+.minxin {
+  display: flex;
 }
 
 * {
