@@ -9,6 +9,25 @@
   height: auto;
 }
 
+li {
+  list-style: none;
+}
+
+.items-nav {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.logo {
+  width: 15rem;
+}
+
+.navbar-own {
+  display: flex;
+  justify-content: space-between;
+}
+
 .minxin {
   display: flex;
 }
