@@ -24,3 +24,17 @@ li{
     display: flex;
     justify-content: space-between;
 }
+
+.profile{
+    display: flex;
+}
+
+.avatar{
+    width: 3rem;
+    height: min-content;
+}
+
+.searcher-finish{
+    display: flex;
+    flex-direction: column;
+}
