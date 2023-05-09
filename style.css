@@ -17,14 +17,20 @@ li {
   display: flex;
   align-items: center;
   justify-content: end;
+  gap: 3.5rem;
+  margin: auto 0;
+}
+
+.items-nav a {
+  text-decoration: none;
+  color: darkslategray;
 }
 
 .logo {
-  width: 15rem;
+  width: 10rem;
 }
 
 .navbar-own {
-  margin: 1rem 0;
   display: flex;
   justify-content: space-between;
   background: #4f4;
@@ -52,14 +58,6 @@ li {
   border-radius: 5px;
   padding: 0.3rem 1.2rem;
   color: #fff;
-}
-
-.minxin {
-  display: flex;
-}
-
-* {
-  margin: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
