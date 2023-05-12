@@ -6,7 +6,6 @@
 
 .ilustration {
   max-width: 39.7em;
-  height: auto;
 }
 
 li {
@@ -27,7 +26,7 @@ li {
 }
 
 .logo {
-  width: 10lxrem;
+  width: 10rem;
 }
 
 .navbar-own {
