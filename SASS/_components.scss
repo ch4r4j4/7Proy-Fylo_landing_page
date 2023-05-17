@@ -1,5 +1,15 @@
 $color-text: #00008f;
-
+$color-button: hsl(224, 93%, 58%);
+@mixin formato-section{
+    height: 36rem;
+}
+@mixin button-getstarter{
+    background-color: $color-button;
+    border-style: none;
+    border-radius: 5px;
+    padding: 0.3rem 1.2rem;
+    color: #fff;
+}
 .quotes{
     width: 2rem;
 }
@@ -8,19 +18,23 @@ $color-text: #00008f;
    max-width: 39.7em;
 }
 /// modificar componente s de tamaño de las imagenes para estbalecer los estilos de bootrap
-li{
-    list-style: none;
-}
 .items-nav{
     display: flex;
     align-items:center;
     justify-content: end;
     gap: 3.5rem;
     margin: auto 0;
-}
-.items-nav a{
-    text-decoration: none;
-    color: darkslategray;
+    li{
+        list-style: none;
+        a{
+            text-decoration: none;
+            color: darkslategray;
+            &:hover{
+                font-size: 4rem;
+            }
+        }
+    }
+
 }
 .logo{
     width: 10rem;
@@ -30,8 +44,12 @@ li{
     display: flex;
     justify-content: space-between;
     background: #4f4;
-    margin: 3rem auto 0;
+    margin: 2.5em 0;
+    padding: 0 3em;
     color: $color-text;
+    @media (max-width: 765px){
+        background-color: black;
+    }
 }
 
 .profile{
@@ -49,20 +67,17 @@ li{
 }
 
 .btn-starter{
-    background-color: hsl(224, 93%, 58%);
-    border-style: none;
-    border-radius: 5px;
-    padding: 0.3rem 1.2rem;
-    color: #fff;
+    min-width: 25rem;
 }
 
 .section-1{
-    height: 40rem;
+    @include formato-section;
 }
 .section-2{
-    height: 40rem;
+    @include formato-section;
+    background: url(../images/bg-curve-desktop.svg) no-repeat
 }
 .section-3{
-    height: 40rem;
+    @include formato-section;
 }
 //// tengo que rehacer todo ya no esta cuadrando, 

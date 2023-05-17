@@ -8,10 +8,6 @@
   max-width: 39.7em;
 }
 
-li {
-  list-style: none;
-}
-
 .items-nav {
   display: flex;
   align-items: center;
@@ -19,10 +15,15 @@ li {
   gap: 3.5rem;
   margin: auto 0;
 }
-
-.items-nav a {
+.items-nav li {
+  list-style: none;
+}
+.items-nav li a {
   text-decoration: none;
   color: darkslategray;
+}
+.items-nav li a:hover {
+  font-size: 4rem;
 }
 
 .logo {
@@ -33,8 +34,14 @@ li {
   display: flex;
   justify-content: space-between;
   background: #4f4;
-  margin: 3rem auto 0;
+  margin: 2.5em 0;
+  padding: 0 3em;
   color: #00008f;
+}
+@media (max-width: 765px) {
+  .navbar-own {
+    background-color: black;
+  }
 }
 
 .profile {
@@ -52,23 +59,27 @@ li {
 }
 
 .btn-starter {
-  background-color: hsl(224, 93%, 58%);
-  border-style: none;
-  border-radius: 5px;
-  padding: 0.3rem 1.2rem;
-  color: #fff;
+  min-width: 25rem;
 }
 
 .section-1 {
-  height: 40rem;
+  height: 36rem;
 }
 
 .section-2 {
-  height: 40rem;
+  height: 36rem;
+  background: url(../images/bg-curve-desktop.svg) no-repeat;
 }
 
 .section-3 {
-  height: 40rem;
+  height: 36rem;
+}
+
+body {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=style.css.map */
