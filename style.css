@@ -75,6 +75,11 @@
   height: 20rem;
 }
 
+footer {
+  display: flex;
+  justify-content: space-around;
+}
+
 body {
   padding: 0;
   display: flex;

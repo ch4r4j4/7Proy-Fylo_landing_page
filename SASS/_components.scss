@@ -81,3 +81,8 @@ $color-button: hsl(224, 93%, 58%);
     height: 20rem;
 }
 //// tengo que rehacer todo ya no esta cuadrando, 
+/// 
+footer{
+    display: flex;
+    justify-content: space-around;
+}
