@@ -69,11 +69,12 @@
 
 .section-1 {
   height: 36rem;
+  background-color: #57b867;
 }
 
 .section-2 {
   height: 36rem;
-  background: url(../images/bg-curve-desktop.svg) no-repeat;
+  background-color: #d365e9;
 }
 
 .section-3 {
