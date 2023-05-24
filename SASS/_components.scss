@@ -68,6 +68,7 @@ $color-button: hsl(224, 93%, 58%);
 
 .btn-starter{
     min-width: 25rem;
+    @include button-getstarter;
 }
 
 .section-1{
@@ -78,7 +79,8 @@ $color-button: hsl(224, 93%, 58%);
     background: url(../images/bg-curve-desktop.svg) no-repeat
 }
 .section-3{
-    height: 20rem;
+    height: 15rem;
+    background-color: skyblue;
 }
 //// tengo que rehacer todo ya no esta cuadrando, 
 /// 

@@ -60,6 +60,11 @@
 
 .btn-starter {
   min-width: 25rem;
+  background-color: hsl(224, 93%, 58%);
+  border-style: none;
+  border-radius: 5px;
+  padding: 0.3rem 1.2rem;
+  color: #fff;
 }
 
 .section-1 {
@@ -72,7 +77,8 @@
 }
 
 .section-3 {
-  height: 20rem;
+  height: 15rem;
+  background-color: skyblue;
 }
 
 footer {
