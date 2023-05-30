@@ -61,13 +61,22 @@ $color-button: hsl(224, 93%, 58%);
     height: min-content;
 }
 
+.searcher-init{
+    display: flex;
+    gap: 1rem;
+}
+
+.input-email{
+    width: 18rem;
+}
+
 .searcher-finish{
     display: flex;
     flex-direction: column;
 }
 
 .btn-starter{
-    min-width: 25rem;
+    width: 16rem;
     @include button-getstarter;
 }
 
