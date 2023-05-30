@@ -91,6 +91,12 @@
   background-color: skyblue;
 }
 
+.card {
+  width: 30rem;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
 footer {
   display: flex;
   justify-content: space-around;
