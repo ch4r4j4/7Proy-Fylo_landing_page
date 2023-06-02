@@ -82,7 +82,11 @@ $color-button: hsl(224, 93%, 58%);
 
 .section-1{
     @include formato-section;
-    background-color: #57b867
+    background-color: #57b867;
+    @media (max-width:1012px) {
+        height: auto;
+        box-sizing: content-box;
+    }
 }
 .section-2{
     @include formato-section;
