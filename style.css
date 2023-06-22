@@ -5,7 +5,11 @@
 }
 
 .ilustration {
-  max-width: 39.7em;
+  width: 50%;
+}
+
+.description {
+  width: 50%;
 }
 
 .items-nav {
@@ -79,6 +83,7 @@
 .section-1 {
   height: 36rem;
   background-color: #57b867;
+  display: flex;
 }
 @media (max-width: 1012px) {
   .section-1 {
