@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./dist/output.css">
   <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | Fylo landing page with two column layout</title>
 
@@ -13,18 +14,18 @@
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
-<body>
-  <nav class="navbar-own container-md">
+<body class="flex flex-col">
+  <nav class="navbar-own flex justify-between">
     <img class="logo"src="./images/logo.svg" alt="logo">
-    <ul class="items-nav">
+    <ul class="items-nav flex">
       <li class=""><a href="">Features</a></li>
       <li class=""><a href="">Team</a></li>
       <li class=""><a href="">Sign in</a></li>
     </ul>
   </nav>
   
-  <main class="container col">
-    <section class="section-1 row align-items-center">
+  <main class="main-container">
+    <section class="section-1 flex">
       <div class="description">
         <h1 class="title-1">all your files in one secure location, accesible anywhere</h1>
         <p class="paraf-1">Fylo stores your most important files in one secure location. 
@@ -32,14 +33,14 @@
           family, and co-workers.</p>
         <div class="searcher-init ">
           <input class="input-email" type="text" placeholder="Enter your email...">
-          <button type="submit" class="btn-starter">Get Started</button>
+          <button type="submit" class="">Get Started</button>
         </div>  
       </div>
       <img class="ilustration ilustration-1" src="./images/illustration-1.svg" alt="illustration-1">
     </section>
     
-    <section class="section-2 row align-items-center">
-      <div class="description col">
+    <section class="section-2 flex">
+      <div class="description ">
         <h2 class="title-2">Stay productive, wherever you are</h2>
         <p class="paraf-2">Never let location be an issue when accessing your files. Fylo has you 
           covered for all of your file storage needs.<br/>
@@ -61,24 +62,24 @@
           </div>
         </div>
       </div>
-      <img class="ilustration illustration-2 col" src="./images/illustration-2.svg" alt="illustration-2">
+      <img class="ilustration" src="./images/illustration-2.svg" alt="illustration-2">
     </section>
     
-    <section class="section-3 row align-items-center">
-      <div class="started col-6">
+    <section class="section-3 flex gap-8">
+      <div class="started">
         <h2 class="title-3">Get early access today</h2>
         <p class="paraf-3">It only takes a minute to sign up and our free starter tier is extremely generous. 
           If you have any questions, our support team would be happy to help you.
         </p>
       </div>
-      <div class="searcher-finish col-5">
+      <div class="searcher-finish">
         <input type="text" placeholder="email@example.com">
-        <button class="btn-starter" type="submit">Get Started For Free</button>
+        <button class="" type="submit">Get Started For Free</button>
       </div> 
     </section>
   </main>
-  <footer class="footer container row align-items-center">
-    <div class="contact col">
+  <footer class="flex justify-around">
+    <div class="contact">
       <img class="logo-end" src="./images/logo.svg" alt="logo">
       <div class="phone">
         <img src="./images/icon-phone.svg" alt="icon phone">
@@ -89,7 +90,7 @@
         <p>example@fylo.com</p>
       </div>
     </div>
-    <div class="info-aboutus col">
+    <div class="info-aboutus">
       <ul>
         <li>About us</li>
         <li>Jobs</li>
@@ -97,22 +98,23 @@
         <li>Blog</li>
       </ul>
     </div>
-    <div class="terms-privacy col">
+    <div class="terms-privacy">
       <ul>
         <li>Contact us</li>
         <li>Terms</li>
         <li>Privacy</li>
       </ul>
     </div>
-    <div class="social-networks col">
-      <img class="bi bi-facebook" src="./images/facebook.svg" alt="facebook">
-      <img class="bi bi-twitter" src="./images/twitter.svg" alt="twitter">
-      <img class="bi bi-instagram" src="./images/instagram.svg" alt="instagram">
+    <div class="social-networks ">
+      <img class="" src="" alt="facebook">
+      <img class="" src="" alt="twitter">
+      <img class="" src="" alt="instagram">
     </div>
   </footer>
   <p class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="">Your Name Here</a>.
   </p>
 </body>
 </html>
+<!--la concha de la lora no se como empezar-->
