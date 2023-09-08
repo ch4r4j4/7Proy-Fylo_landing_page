@@ -10,3 +10,12 @@ body{
     width: 50%;
 
 }
+
+.navbar-own{
+    height: 2.5rem;
+}
+
+.logo{
+    height: 100%;
+    width: auto;
+}
