@@ -19,3 +19,12 @@ body{
     height: 100%;
     width: auto;
 }
+
+.avatar{
+   width: 3rem; 
+}
+
+.flecha{
+    height: 100%;
+    width: auto;
+}
