@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root{
+  --raelway: font-family: 'Raleway', sans-serif;
+  --open-sans: font-family: 'Open Sans', sans-serif;
+}
+
 /*
 ! tailwindcss v3.3.3 | MIT License | https://tailwindcss.com
 */
@@ -434,7 +443,7 @@ video {
   display: none;
 }
 
-*, ::before, ::after {
+*, ::before, ::after{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -484,7 +493,7 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-::backdrop {
+::backdrop{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -534,64 +543,56 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.flex {
+.flex{
   display: flex;
 }
 
-.flex-col {
+.flex-col{
   flex-direction: column;
 }
 
-.items-center {
+.items-center{
   align-items: center;
 }
 
-.justify-between {
+.justify-center{
+  justify-content: center;
+}
+
+.justify-between{
   justify-content: space-between;
 }
 
-.justify-around {
+.justify-around{
   justify-content: space-around;
 }
 
-.gap-10 {
-  gap: 2.5rem;
-}
-
-.gap-6 {
-  gap: 1.5rem;
-}
-
-.gap-8 {
-  gap: 2rem;
-}
-
-.gap-4 {
-  gap: 1rem;
-}
-
-.gap-5 {
-  gap: 1.25rem;
-}
-
-.gap-3 {
-  gap: 0.75rem;
-}
-
-.gap-2 {
-  gap: 0.5rem;
-}
-
-.gap-1 {
+.gap-1{
   gap: 0.25rem;
 }
 
-.px-20 {
+.gap-14{
+  gap: 3.5rem;
+}
+
+.gap-4{
+  gap: 1rem;
+}
+
+.gap-6{
+  gap: 1.5rem;
+}
+
+.gap-8{
+  gap: 2rem;
+}
+
+.px-20{
   padding-left: 5rem;
   padding-right: 5rem;
 }
 
-.py-11 {
+.py-11{
   padding-top: 2.75rem;
   padding-bottom: 2.75rem;
 }
@@ -604,8 +605,31 @@ body{
   width: 50%;
 }
 
+.section{
+  height: 29.5rem;
+}
+
+.description{
+  width: 50%;
+  min-width: 480px;
+}
+
+.ilustration{
+  width: 48%;
+  min-width: 480px;
+}
+
+.title{
+  font-family: var(--raelway);
+  font-weight: 700;
+  font-size: 2.4rem
+}
+
+.section-1{
+}
+
 .navbar-own{
-  height: 2.5rem;
+  height: 3rem;
 }
 
 .logo{

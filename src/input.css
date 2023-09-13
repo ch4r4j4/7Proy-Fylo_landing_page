@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root{
+    --raelway: font-family: 'Raleway', sans-serif;
+    --open-sans: font-family: 'Open Sans', sans-serif;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -8,11 +16,34 @@ body{
 
 .ilustration{
     width: 50%;
+}
 
+
+.section{
+    height: 29.5rem;
+}
+
+.description{
+    width: 50%;
+    min-width: 480px;
+}
+
+.ilustration{
+    width: 48%;
+    min-width: 480px;
+}
+
+.title{
+    font-family: var(--raelway);
+    font-weight: 700;
+    font-size: 2.4rem
+}
+
+.section-1{
 }
 
 .navbar-own{
-    height: 2.5rem;
+    height: 3rem;
 }
 
 .logo{
