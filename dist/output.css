@@ -575,6 +575,10 @@ video {
   gap: 3.5rem;
 }
 
+.gap-2{
+  gap: 0.5rem;
+}
+
 .gap-4{
   gap: 1rem;
 }
@@ -585,6 +589,18 @@ video {
 
 .gap-8{
   gap: 2rem;
+}
+
+.gap-3{
+  gap: 0.75rem;
+}
+
+.rounded-3xl{
+  border-radius: 1.5rem;
+}
+
+.p-10{
+  padding: 2.5rem;
 }
 
 .px-20{
@@ -638,10 +654,20 @@ body{
 }
 
 .avatar{
-  width: 3rem;
+  width: 2.25rem;
+  height: 100%;
 }
 
 .flecha{
   height: 100%;
   width: auto;
+}
+
+.card{
+  width: 20rem;
+  height:auto;
+}
+
+.quotes{
+  width: 1.15rem;
 }

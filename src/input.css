@@ -52,10 +52,20 @@ body{
 }
 
 .avatar{
-   width: 3rem; 
+   width: 2.25rem;
+   height: 100%; 
 }
 
 .flecha{
     height: 100%;
     width: auto;
+}
+
+.card{
+    width: 20rem;
+    height:auto;
+}
+
+.quotes{
+    width: 1.15rem;
 }
