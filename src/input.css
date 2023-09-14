@@ -2,8 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 :root{
-    --raelway: font-family: 'Raleway', sans-serif;
-    --open-sans: font-family: 'Open Sans', sans-serif;
+    --raelway:'Raleway', sans-serif;
+    --open-sans: 'Open Sans', sans-serif;
+    --verydark-blue: hsl(243, 87%, 12%);
+    --Light-grayish--blue: hsl(240, 75%, 98%);
+    --Light-gray: hsl(0, 0%, 75%);
+    --moderate-cyan: hsl(170, 45%, 43%);
+    --bright-blue: hsl(224, 93%, 58%);
+    --desaturated-blue: hsl(238, 22%, 44%);
 }
 
 @tailwind base;
@@ -44,6 +50,7 @@ body{
 
 .section-3{
     height: 16rem;
+    background-color: var(--desaturated-blue);
 }
 
 .navbar-own{
@@ -72,4 +79,9 @@ body{
 
 .quotes{
     width: 1.15rem;
+}
+
+footer{
+    background-color: var(--verydark-blue);
+    height: 16rem;
 }
