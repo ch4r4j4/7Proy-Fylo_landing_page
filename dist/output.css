@@ -615,17 +615,22 @@ video {
   padding-right:6rem;
 }
 
-.py-11{
-  padding-top:2.75rem;
-  padding-bottom:2.75rem;
+.px-6{
+  padding-left:1.5rem;
+  padding-right:1.5rem;
 }
 
-.pt-8{
-  padding-top:2rem;
+.py-2{
+  padding-top:0.5rem;
+  padding-bottom:0.5rem;
 }
 
 .pt-11{
   padding-top:2.75rem;
+}
+
+.pt-8{
+  padding-top:2rem;
 }
 
 body{
@@ -697,4 +702,23 @@ footer{
   background-color: var(--verydark-blue);
   height: 16rem;
   color: white;
+}
+
+.input-email{
+  padding: 0.5rem;
+  border-width: 0.01rem;
+  border-color: var(--verydark-blue);
+  border-radius: 3px;
+}
+
+.get-started{
+  background-color: var(--bright-blue);
+  color: white;
+  border-radius: 3px;
+}
+
+.get-started.button-2{
+  width: 100%;
+  max-width: 17rem;
+  border-radius: 3px;
 }

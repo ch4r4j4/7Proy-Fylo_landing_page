@@ -87,3 +87,22 @@ footer{
     height: 16rem;
     color: white;
 }
+
+.input-email{
+    padding: 0.5rem;
+    border-width: 0.01rem;
+    border-color: var(--verydark-blue);
+    border-radius: 3px;
+}
+
+.get-started{
+    background-color: var(--bright-blue);
+    color: white;
+    border-radius: 3px;
+}
+
+.get-started.button-2{
+    width: 100%;
+    max-width: 17rem;
+    border-radius: 3px;
+}
