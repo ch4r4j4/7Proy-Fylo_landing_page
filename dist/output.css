@@ -624,6 +624,10 @@ video {
   padding-top:2rem;
 }
 
+.pt-11{
+  padding-top:2.75rem;
+}
+
 body{
   gap:4rem;
 }
@@ -658,6 +662,7 @@ body{
 .section-3{
   height: 16rem;
   background-color: var(--desaturated-blue);
+  color: white;
 }
 
 .navbar-own{
@@ -691,4 +696,5 @@ body{
 footer{
   background-color: var(--verydark-blue);
   height: 16rem;
+  color: white;
 }
