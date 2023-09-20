@@ -625,16 +625,16 @@ video {
   padding-bottom:0.5rem;
 }
 
+.pb-8{
+  padding-bottom:2rem;
+}
+
 .pt-11{
   padding-top:2.75rem;
 }
 
 .pt-8{
   padding-top:2rem;
-}
-
-.pb-8{
-  padding-bottom:2rem;
 }
 
 body{
@@ -646,7 +646,7 @@ body{
 }
 
 .section{
-  height: 29.5rem;
+  min-height: 29.5rem;
 }
 
 .description{
