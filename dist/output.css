@@ -549,6 +549,14 @@ video {
   --tw-backdrop-sepia: ;
 }
 
+.mb-6{
+  margin-bottom:1.5rem;
+}
+
+.mt-4{
+  margin-top:1rem;
+}
+
 .flex{
   display:flex;
 }
@@ -639,6 +647,7 @@ video {
 
 body{
   gap:4rem;
+  background-color: var(--Light-grayish--blue);
 }
 
 .ilustration{
@@ -669,7 +678,7 @@ body{
 }
 
 .section-3{
-  height: 16rem;
+  height: 18rem;
   background-color: var(--desaturated-blue);
   color: white;
 }
@@ -694,8 +703,11 @@ body{
 }
 
 .card{
-  width: 20rem;
+  width: 24rem;
   height:auto;
+  background-color: white;
+  box-shadow: 0 0 10px var(--Light-gray);
+  border-radius: 0.75rem;
 }
 
 .quotes{
@@ -730,4 +742,22 @@ footer{
 .logo-end{
   width: 13.5rem;
   height: auto;
+}
+
+p{
+  font-size: 14px;
+}
+
+.name{
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.position{
+  font-size: 10px;
+}
+
+.searcher-finish>input{
+  padding: 0.5rem;
+  border-radius: 3px;
 }
