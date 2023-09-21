@@ -95,7 +95,7 @@ footer{
 .input-email{
     padding: 0.5rem;
     border-width: 0.01rem;
-    border-color: var(--verydark-blue);
+    border-color: var(--desaturated-blue);
     border-radius: 3px;
 }
 
@@ -132,4 +132,14 @@ p{
 .searcher-finish>input{
     padding: 0.5rem;
     border-radius: 3px;
+}
+
+.social-networks>.icon{
+    width: 2rem;
+    height: auto;
+}
+
+.icon-contact{
+    width: 1.31rem;
+    height: auto;
 }

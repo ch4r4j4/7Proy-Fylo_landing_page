@@ -577,10 +577,6 @@ video {
   justify-content:space-between;
 }
 
-.justify-around{
-  justify-content:space-around;
-}
-
 .gap-1{
   gap:0.25rem;
 }
@@ -603,6 +599,10 @@ video {
 
 .gap-8{
   gap:2rem;
+}
+
+.self-start{
+  align-self:flex-start;
 }
 
 .rounded-3xl{
@@ -633,16 +633,17 @@ video {
   padding-bottom:0.5rem;
 }
 
+.py-8{
+  padding-top:2rem;
+  padding-bottom:2rem;
+}
+
 .pb-8{
   padding-bottom:2rem;
 }
 
 .pt-11{
   padding-top:2.75rem;
-}
-
-.pt-8{
-  padding-top:2rem;
 }
 
 body{
@@ -723,7 +724,7 @@ footer{
 .input-email{
   padding: 0.5rem;
   border-width: 0.01rem;
-  border-color: var(--verydark-blue);
+  border-color: var(--desaturated-blue);
   border-radius: 3px;
 }
 
@@ -760,4 +761,14 @@ p{
 .searcher-finish>input{
   padding: 0.5rem;
   border-radius: 3px;
+}
+
+.social-networks>.icon{
+  width: 2rem;
+  height: auto;
+}
+
+.icon-contact{
+  width: 1.31rem;
+  height: auto;
 }
