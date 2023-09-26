@@ -145,7 +145,14 @@ p{
 }
 
 @media (max-width: 768px) {
+    .footer{
+        padding: 0 0;
+    }   
     .section{
         padding: 0;
     }
+    .section-3{
+        padding: 0;
+    }
+    
 }
