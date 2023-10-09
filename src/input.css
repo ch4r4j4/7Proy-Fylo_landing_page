@@ -15,3 +15,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.social-networks{
+    background-color: blue;
+}
+.icon{
+    width: 2rem;
+    height: auto;
+}
