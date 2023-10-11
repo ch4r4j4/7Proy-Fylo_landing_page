@@ -16,7 +16,13 @@
 @tailwind components;
 @tailwind utilities;
 
-
+.ilustration{
+    height: 26rem;
+    min-height: 18rem;
+}
+.description{
+    max-width: 40rem;
+}
 .social-networks{
     background-color: blue;
 }
@@ -35,7 +41,7 @@
 }
 /*section-1*/
 #section-1{
-    height: 32rem;
+    height: auto;
     background-color: blue;
     padding: 3rem;
     gap: 3rem;
@@ -43,7 +49,7 @@
 
 /*section-2*/
 #section-2{
-    height: 34rem;
+    height: auto;
     padding: 4rem 3rem;
     gap: 3rem;
 }
@@ -65,4 +71,13 @@
 /*section-3*/
 #section-3{
     background-color: orange;
+    padding: 3rem;
+}
+#section-3>.description{
+    max-width: 31rem;
+}
+
+/*footer*/
+.footer{
+    padding: 3rem;
 }
