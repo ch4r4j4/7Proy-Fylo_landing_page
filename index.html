@@ -14,11 +14,10 @@
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
-<body class="">
-  <div class="container-file">
-  <nav class="navbar-own">
+<body class="flex flex-col">
+  <nav class="navbar-own flex justify-between">
     <img class="logo"src="./images/logo.svg" alt="logo">
-    <ul class="items-nav">
+    <ul class="items-nav flex gap-8">
       <li class=""><a href="">Features</a></li>
       <li class=""><a href="">Team</a></li>
       <li class=""><a href="">Sign in</a></li>
@@ -26,7 +25,7 @@
   </nav>
   
   <main class="main-container">
-  <section class="section">
+  <section class="section flex" id="section-1">
       <div class="description">
         <h1 class="title">All your files in one secure location, accesible anywhere.</h1>
         <p class="paraf-1">Fylo stores your most important files in one secure location. 
@@ -40,7 +39,7 @@
       <img class="ilustration" src="./images/illustration-1.svg" alt="illustration-1">
     </section>
     
-    <section class="section" id="section-2">
+    <section class="section flex" id="section-2">
       <div class="description ">
         <h2 class="title title-2">Stay productive, wherever you are</h2>
         <p class="paraf-2">Never let location be an issue when accessing your files. Fylo has you 
@@ -48,13 +47,13 @@
           Securely share files and folders with friends, family and colleagues for 
           live collaboration. No email attachments required!
         </p>
-        <a href="" class="">See how Fylo works <img src="./images/icon-arrow.svg" alt="" class="flecha"></a>
+        <a href="" class=" flex gap-2">See how Fylo works <img src="./images/icon-arrow.svg" alt="" class="flecha"></a>
         <div class="card">
           <img class="quotes" src="./images/icon-quotes.svg" alt="quotes">
           <p class="paraf-card">Fylo has improved our team productivity by an order of magnitude. Since 
             making the switch our team has become a well-oiled collaboration machine.
           </p>
-          <div class="profile">
+          <div class="profile flex items-center gap-3">
             <img class="avatar" src="./images/avatar-testimonial.jpg" alt="avatar">
             <div class="info-profile">
               <h2 class="name">Kyle Burton</h2>
@@ -66,7 +65,7 @@
       <img class="ilustration" src="./images/illustration-2.svg" alt="illustration-2">
     </section>
     
-    <section class="section-3">
+    <section class="section flex" id="section-3">
       <div class="ilustration">
         <h2 class="title">Get early access today</h2>
         <p class="paraf-3">It only takes a minute to sign up and our free starter tier is extremely generous. 
@@ -81,7 +80,7 @@
   </main>
   <footer class="footer">
     <img class="logo-end" src="./images/logo-white.svg" alt="logo">
-    <div class="">
+    <div class="info flex justify-between">
       <div class="contact">
         <div class="phone ">
           <img class="icon-contact"src="./images/icon-phone.svg" alt="icon phone">
@@ -107,14 +106,15 @@
           <li>Privacy</li>
         </ul>
       </div>
-      <div class="social-networks">
+      <div class="social-networks flex gap-3">
         <img class="icon" src="./images/facebook.svg" alt="facebook">
         <img class="icon" src="./images/twitter.svg" alt="twitter">
         <img class="icon" src="./images/instagram.svg" alt="instagram">
       </div>
     </div>
   </footer>
-
-</div>
 </body>
 </html>
+
+<!--vamos a hacer el heigh auto y las medidas de las imaganes con min widht-->
+<!-- resposive design-->

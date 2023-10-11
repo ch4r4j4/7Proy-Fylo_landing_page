@@ -24,3 +24,45 @@
     width: 2rem;
     height: auto;
 }
+/*navbar*/
+.navbar-own{
+    padding: 2rem 3rem;
+}
+
+.logo{
+    width: 7rem;
+    height: 100%;
+}
+/*section-1*/
+#section-1{
+    height: 32rem;
+    background-color: blue;
+    padding: 3rem;
+    gap: 3rem;
+}
+
+/*section-2*/
+#section-2{
+    height: 34rem;
+    padding: 4rem 3rem;
+    gap: 3rem;
+}
+.flecha{
+    width: 1.5rem;
+    height: auto;
+}
+    /* card person */
+.card{
+    width: 21rem;
+    padding: 1.2rem;
+    background-color: green;
+}
+.avatar{
+    width: auto;
+    height: 2rem;
+}
+ 
+/*section-3*/
+#section-3{
+    background-color: orange;
+}
