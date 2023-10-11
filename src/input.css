@@ -74,7 +74,8 @@
     padding: 3rem;
 }
 #section-3>.description{
-    max-width: 31rem;
+    max-width: 40rem;
+    padding-right: 2rem;
 }
 
 /*footer*/
