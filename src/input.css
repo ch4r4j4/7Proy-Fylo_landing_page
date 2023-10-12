@@ -21,7 +21,8 @@
     min-height: 18rem;
 }
 .description{
-    max-width: 40rem;
+    width: auto;
+    max-width: 35rem;
 }
 .social-networks{
     background-color: blue;
@@ -44,14 +45,14 @@
     height: auto;
     background-color: blue;
     padding: 3rem;
-    gap: 3rem;
+    gap:1rem;
 }
 
 /*section-2*/
 #section-2{
     height: auto;
     padding: 4rem 3rem;
-    gap: 3rem;
+    gap: 1rem;
 }
 .flecha{
     width: 1.5rem;

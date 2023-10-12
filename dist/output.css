@@ -561,8 +561,16 @@ video {
   flex-wrap:wrap;
 }
 
+.flex-nowrap{
+  flex-wrap:nowrap;
+}
+
 .items-center{
   align-items:center;
+}
+
+.justify-start{
+  justify-content:flex-start;
 }
 
 .justify-between{
@@ -587,7 +595,8 @@ video {
 }
 
 .description{
-  max-width: 40rem;
+  width: auto;
+  max-width: 35rem;
 }
 
 .social-networks{
@@ -616,7 +625,7 @@ video {
   height: auto;
   background-color: blue;
   padding: 3rem;
-  gap: 3rem;
+  gap:1rem;
 }
 
 /*section-2*/
@@ -624,7 +633,7 @@ video {
 #section-2{
   height: auto;
   padding: 4rem 3rem;
-  gap: 3rem;
+  gap: 1rem;
 }
 
 .flecha{
@@ -661,4 +670,20 @@ video {
 
 .footer{
   padding: 3rem;
+}
+
+@media (min-width: 768px){
+  .md\:flex-wrap{
+    flex-wrap:wrap;
+  }
+}
+
+@media (min-width: 1024px){
+  .lg\:flex-wrap{
+    flex-wrap:wrap;
+  }
+
+  .lg\:flex-nowrap{
+    flex-wrap:nowrap;
+  }
 }
