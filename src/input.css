@@ -82,4 +82,12 @@
 /*footer*/
 .footer{
     padding: 3rem;
+    background-color: gray;
+}
+
+/*responsive design*/
+@media (max-width: 991px) {
+    .footer{
+        background-color: black;
+    }
 }
