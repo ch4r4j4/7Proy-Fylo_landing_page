@@ -694,6 +694,14 @@ video {
 }
 
 @media (min-width: 768px){
+  .md\:flex-row{
+    flex-direction:row;
+  }
+
+  .md\:flex-col{
+    flex-direction:column;
+  }
+
   .md\:items-start{
     align-items:flex-start;
   }
@@ -706,5 +714,17 @@ video {
 @media (min-width: 1024px){
   .lg\:flex-nowrap{
     flex-wrap:nowrap;
+  }
+
+  .lg\:justify-start{
+    justify-content:flex-start;
+  }
+
+  .lg\:justify-center{
+    justify-content:center;
+  }
+
+  .lg\:justify-between{
+    justify-content:space-between;
   }
 }
