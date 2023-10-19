@@ -90,4 +90,7 @@
     .footer{
         background-color: black;
     }
+    #section-1,#section-2,#section-3{
+        padding: 3rem 1rem;
+    }
 }
