@@ -597,6 +597,11 @@ video {
   gap:2rem;
 }
 
+input{
+  padding: 0.5rem 2.5rem;
+  border-radius: 0.3rem;
+}
+
 .ilustration{
   height: 26rem;
   min-height: 18rem;
@@ -674,11 +679,22 @@ video {
   padding-right: 2rem;
 }
 
+.searcher-finish{
+  height: -moz-min-content;
+  height: min-content;
+}
+
 /*footer*/
 
 .footer{
   padding: 3rem;
   background-color: gray;
+}
+
+.get-started{
+  padding: 0.5rem 2.5rem;
+  border-radius: 0.3rem;
+  background-color: var(--bright-blue);
 }
 
 /*responsive design*/
@@ -698,16 +714,8 @@ video {
     flex-direction:row;
   }
 
-  .md\:flex-col{
-    flex-direction:column;
-  }
-
   .md\:items-start{
     align-items:flex-start;
-  }
-
-  .md\:justify-between{
-    justify-content:space-between;
   }
 }
 
@@ -718,10 +726,6 @@ video {
 
   .lg\:justify-start{
     justify-content:flex-start;
-  }
-
-  .lg\:justify-center{
-    justify-content:center;
   }
 
   .lg\:justify-between{

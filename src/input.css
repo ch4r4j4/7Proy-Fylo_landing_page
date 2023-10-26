@@ -16,6 +16,11 @@
 @tailwind components;
 @tailwind utilities;
 
+input{
+    padding: 0.5rem 2.5rem;
+    border-radius: 0.3rem;
+}
+
 .ilustration{
     height: 26rem;
     min-height: 18rem;
@@ -78,11 +83,20 @@
     max-width: 40rem;
     padding-right: 2rem;
 }
+.searcher-finish{
+    height: min-content;
+}
 
 /*footer*/
 .footer{
     padding: 3rem;
     background-color: gray;
+}
+
+.get-started{
+    padding: 0.5rem 2.5rem;
+    border-radius: 0.3rem;
+    background-color: var(--bright-blue);
 }
 
 /*responsive design*/
