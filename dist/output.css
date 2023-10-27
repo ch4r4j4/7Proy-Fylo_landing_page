@@ -593,6 +593,10 @@ video {
   gap:0.75rem;
 }
 
+.gap-4{
+  gap:1rem;
+}
+
 .gap-8{
   gap:2rem;
 }
@@ -694,8 +698,8 @@ input{
 }
 
 .get-started{
-  width: 15rem;
-  padding: 0.5rem 2.5rem;
+  width: 12rem;
+  padding: 0.5rem 1rem;
   border-radius: 0.3rem;
   background-color: var(--bright-blue);
 }
@@ -709,7 +713,7 @@ input{
 
 @media (max-width: 991px) {
   .footer{
-    background-color: black;
+    background-color: #4c6a92;
   }
 
   #section-1,#section-2,#section-3{
@@ -724,10 +728,6 @@ input{
 
   .md\:items-start{
     align-items:flex-start;
-  }
-
-  .md\:justify-start{
-    justify-content:flex-start;
   }
 }
 
