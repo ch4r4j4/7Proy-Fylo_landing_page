@@ -598,7 +598,9 @@ video {
 }
 
 input{
-  padding: 0.5rem 2.5rem;
+  width: auto;
+  max-width: 15rem;
+  padding: 0.5rem 0.5rem;
   border-radius: 0.3rem;
 }
 
@@ -692,9 +694,15 @@ input{
 }
 
 .get-started{
+  width: 15rem;
   padding: 0.5rem 2.5rem;
   border-radius: 0.3rem;
   background-color: var(--bright-blue);
+}
+
+.searcher-init>.get-started{
+  width: 12rem;
+  min-width: 10rem;
 }
 
 /*responsive design*/
@@ -716,6 +724,10 @@ input{
 
   .md\:items-start{
     align-items:flex-start;
+  }
+
+  .md\:justify-start{
+    justify-content:flex-start;
   }
 }
 
