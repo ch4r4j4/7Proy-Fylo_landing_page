@@ -50,7 +50,7 @@ input{
 /*section-1*/
 #section-1{
     height: auto;
-    background-color: blue;
+    background-color: #fff;
     padding: 3rem;
     gap:1rem;
 }
@@ -60,6 +60,7 @@ input{
     height: auto;
     padding: 4rem 3rem;
     gap: 1rem;
+    background-color: var(--Light-grayish--blue);
 }
 .flecha{
     width: 1.5rem;
@@ -78,7 +79,7 @@ input{
  
 /*section-3*/
 #section-3{
-    background-color: orange;
+    background-color: var(--desaturated-blue);
     padding: 3rem;
 }
 #section-3>.description{
@@ -92,7 +93,7 @@ input{
 /*footer*/
 .footer{
     padding: 3rem;
-    background-color: gray;
+    background-color: var(--verydark-blue);
 }
 
 .get-started{
