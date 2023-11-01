@@ -759,6 +759,12 @@ input{
   }
 }
 
+@media (min-width: 640px){
+  .sm\:justify-between{
+    justify-content:space-between;
+  }
+}
+
 @media (min-width: 768px){
   .md\:flex-row{
     flex-direction:row;
