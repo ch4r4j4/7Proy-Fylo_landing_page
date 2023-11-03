@@ -23,6 +23,7 @@ input{
     border-radius: 0.3rem;
 }
 
+
 .ilustration{
     height: 26rem;
     min-height: 18rem;
@@ -32,7 +33,6 @@ input{
     max-width: 35rem;
 }
 .social-networks{
-    background-color: blue;
 }
 .icon{
     width: 2rem;
@@ -61,6 +61,11 @@ input{
     padding: 4rem 3rem;
     gap: 1rem;
     background-color: var(--Light-grayish--blue);
+}
+
+/**/
+#section-3{
+    color: white;
 }
 .flecha{
     width: 1.5rem;
@@ -94,6 +99,7 @@ input{
 .footer{
     padding: 3rem;
     background-color: var(--verydark-blue);
+    color: white;
 }
 
 .get-started{
