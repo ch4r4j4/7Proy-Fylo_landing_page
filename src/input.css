@@ -23,6 +23,10 @@ input{
     border-radius: 0.3rem;
 }
 
+.input-finish{
+    width: 28rem;
+    min-width: 16rem;
+}
 
 .ilustration{
     height: 26rem;
@@ -62,8 +66,12 @@ input{
     gap: 1rem;
     background-color: var(--Light-grayish--blue);
 }
+.see-link{
+    color: var(--moderate-cyan);
+}
 
-/**/
+
+/*section-3*/
 #section-3{
     color: white;
 }
