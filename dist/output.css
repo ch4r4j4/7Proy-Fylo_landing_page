@@ -601,6 +601,12 @@ video {
   gap:2rem;
 }
 
+.title{
+  font-family: var(--raelway);
+  font-weight: 700;
+  font-size: 2.7rem;
+}
+
 input{
   width: auto;
   max-width: 15rem;
@@ -620,7 +626,7 @@ input{
 
 .description{
   width: auto;
-  max-width: 35rem;
+  max-width: 45rem;
 }
 
 .social-networks{
