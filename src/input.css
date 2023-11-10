@@ -23,15 +23,16 @@
 }
 
 input{
-    width: auto;
-    max-width: 15rem;
+    width: 100%;
+    max-width: 18rem;
+    min-width: 11rem;
     padding: 0.5rem 0.5rem;
     border-radius: 0.3rem;
 }
 
 .input-finish{
     width: 28rem;
-    min-width: 16rem;
+    min-width: 12rem;
 }
 
 .ilustration{
@@ -74,6 +75,9 @@ input{
 }
 .see-link{
     color: var(--moderate-cyan);
+    text-decoration: underline;
+    text-underline-offset: 0.5em;
+    margin-bottom: 1em;
 }
 
 
@@ -89,7 +93,9 @@ input{
 .card{
     width: 21rem;
     padding: 1.2rem;
-    background-color: green;
+    background-color: white;
+    border-radius: 0.4rem;
+    box-shadow: 0 0 8px #bbbbbb;
 }
 .avatar{
     width: auto;
@@ -134,7 +140,7 @@ input{
 /*responsive design*/
 @media (max-width: 991px) {
     .footer{
-        background-color: #4c6a92;
+       
     }
     #section-1,#section-2,#section-3{
         padding: 3rem 1rem;

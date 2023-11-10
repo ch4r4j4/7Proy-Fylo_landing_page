@@ -608,15 +608,16 @@ video {
 }
 
 input{
-  width: auto;
-  max-width: 15rem;
+  width: 100%;
+  max-width: 18rem;
+  min-width: 11rem;
   padding: 0.5rem 0.5rem;
   border-radius: 0.3rem;
 }
 
 .input-finish{
   width: 28rem;
-  min-width: 16rem;
+  min-width: 12rem;
 }
 
 .ilustration{
@@ -668,6 +669,9 @@ input{
 
 .see-link{
   color: var(--moderate-cyan);
+  text-decoration: underline;
+  text-underline-offset: 0.5em;
+  margin-bottom: 1em;
 }
 
 /*section-3*/
@@ -686,7 +690,9 @@ input{
 .card{
   width: 21rem;
   padding: 1.2rem;
-  background-color: green;
+  background-color: white;
+  border-radius: 0.4rem;
+  box-shadow: 0 0 8px #bbbbbb;
 }
 
 .avatar{
@@ -740,7 +746,6 @@ input{
 
 @media (max-width: 991px) {
   .footer{
-    background-color: #4c6a92;
   }
 
   #section-1,#section-2,#section-3{
@@ -767,6 +772,10 @@ input{
 }
 
 @media (min-width: 1024px){
+  .lg\:flex-row{
+    flex-direction:row;
+  }
+
   .lg\:flex-nowrap{
     flex-wrap:nowrap;
   }
