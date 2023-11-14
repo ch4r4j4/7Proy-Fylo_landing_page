@@ -57,7 +57,7 @@ input:focus {
 }
 /*navbar*/
 .navbar-own{
-    padding: 2rem 3rem;
+    padding: 2rem 4rem;
 }
 
 .logo{
@@ -74,14 +74,14 @@ input:focus {
 #section-1{
     height: auto;
     background-color: #fff;
-    padding: 3rem;
+    padding: 3rem 4rem;
     gap:1rem;
 }
 
 /*section-2*/
 #section-2{
     height: auto;
-    padding: 4rem 3rem;
+    padding: 4rem 4rem;
     gap: 1rem;
     background-color: var(--Light-gray);
 }
@@ -89,13 +89,15 @@ input:focus {
     color: var(--moderate-cyan);
     text-decoration: underline;
     text-underline-offset: 0.5em;
-    margin-bottom: 1em;
+    margin-bottom: 0.6em;
 }
 
 
 /*section-3*/
 #section-3{
     color: white;
+    background-color: var(--desaturated-blue);
+    padding: 3rem 4rem;
 }
 .flecha{
     width: 1.5rem;
@@ -107,17 +109,11 @@ input:focus {
     padding: 1.2rem;
     background-color: white;
     border-radius: 0.4rem;
-    box-shadow: 0 0 8px #bbbbbb;
+    box-shadow: 0 0 8px #d8d8d8;
 }
 .avatar{
     width: auto;
     height: 2rem;
-}
- 
-/*section-3*/
-#section-3{
-    background-color: var(--desaturated-blue);
-    padding: 3rem;
 }
 #section-3>.description{
     max-width: 40rem;
@@ -129,7 +125,7 @@ input:focus {
 
 /*footer*/
 .footer{
-    padding: 3rem;
+    padding: 3rem 4rem;
     background-color: var(--verydark-blue);
     color: white;
 }
@@ -146,9 +142,14 @@ input:focus {
 }
 
 .icon-contact{
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 1.2rem;
+    height: 1.2rem;
 }
+#twitter{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
 /*responsive design*/
 @media (max-width: 991px) {
     .footer{
