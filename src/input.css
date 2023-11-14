@@ -28,11 +28,17 @@ input{
     min-width: 11rem;
     padding: 0.5rem 0.5rem;
     border-radius: 0.3rem;
+    border: 1px solid var(--desaturated-blue);
 }
 
 .input-finish{
     width: 28rem;
     min-width: 12rem;
+}
+
+input:focus {
+    border:1px solid #3498db; 
+    outline: none;
 }
 
 .ilustration{
