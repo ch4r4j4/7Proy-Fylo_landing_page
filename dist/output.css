@@ -622,7 +622,7 @@ input{
 }
 
 input:focus {
-  border:1px solid #3498db;
+  border:1px solid var(--desaturated-blue);
   outline: none;
 }
 
@@ -651,7 +651,7 @@ input:focus {
 }
 
 .logo{
-  width: 7rem;
+  width: 9rem;
   height: 100%;
 }
 
